@@ -2,7 +2,7 @@ const Discord = require('discord.js')
 
 exports.run = async (client, message, args) => {
 
-  if (!config.bot.sahip.includes(message.author.id)) return
+  if (!config.bot.owners.includes(message.author.id)) return
   try {
     let codein = args.join(" ")
     let code = eval(codein)
