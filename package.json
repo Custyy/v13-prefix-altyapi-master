@@ -1,0 +1,23 @@
+{
+  "name": "discordjs-bos-altyapi",
+  "version": "0.0.1",
+  "description": "Discord.JS v13 Altyapi (Prefix)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon index.js"
+  },
+  "authors": {
+    "name": "Clarence#1000",
+    "email": "clarence@gmail.com"
+  },
+  "dependencies": {
+    "discord.js": "^13.8.0",
+    "moment": "^2.29.3",
+    "moment-duration-format": "^2.3.2",
+    "mongoose": "^5.13.7"
+  },
+  "devDependencies": {
+    "quick.db": "^7.1.3"
+  }
+}
