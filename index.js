@@ -7,7 +7,7 @@ const moment = require('moment')
 require('moment-duration-format')
 moment.locale('tr')
 
-require('./util/eventLoader.js')(client)
+require('./utils/eventLoader.js')(client)
 
 global.log = message => console.log(`${message}`)
 
