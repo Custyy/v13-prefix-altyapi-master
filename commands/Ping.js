@@ -14,6 +14,5 @@ exports.conf = {
 
 exports.help = {
    name: 'Ping',
-   description: 'Botun geçikme süresini gösterir.',
-   usage: 'ping'
+   description: 'Botun geçikme süresini gösterir.'
 }

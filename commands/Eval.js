@@ -36,6 +36,5 @@ exports.conf = {
 
 exports.help = {
   name: 'Eval',
-  description: 'Denemek istediğiniz kod bloğunu çalıştırır.',
-  usage: 'eval'
+  description: 'Denemek istediğiniz kod bloğunu çalıştırır.'
 }
